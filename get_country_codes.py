@@ -1,5 +1,5 @@
 def get_country_codes(param):
-    split = prices.split(' ')
+    split = param.split(' ')
     code_list = []
     for val in split:
         code_list.append(val[:2])
